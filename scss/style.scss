@@ -1,9 +1,10 @@
 // Pages
 
-@import "./components/home.scss";
+@import "./components/home";
 
 // Styles
 
-@import "./styles/fonts.scss";
-@import "./styles/variables.scss";
-@import "./styles/mixin.scss";
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/extend";
+@import "./base/general";

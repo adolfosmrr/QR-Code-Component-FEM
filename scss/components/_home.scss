@@ -1,0 +1,37 @@
+main {
+    width: 100vw;
+    height: 100vh;
+
+    section {
+        width: 100%;
+        height: 100%;
+        @extend %flexCenter;
+
+        .card {
+            width: 320px;
+            height: 497px;
+            border-radius: 20px;
+            background-color: white;
+            padding: 16px;
+
+            img{
+                width: 288px;
+                height: 288px;
+                margin-bottom: 25px;
+                border-radius: 15px;
+            }
+
+            .title {
+                font-size: 22px;
+                color: hsl(218, 44%, 22%); //for some reason, don't recognize $darkBlue variable
+                font-family: outfilBold;
+                margin-bottom: 16px;
+            }
+
+            .text {
+                color: hsl(212, 45%, 89%); //for some reason, don't recognize $lightGrey variable
+                font-family: outfit;
+            }
+        }
+    }
+}

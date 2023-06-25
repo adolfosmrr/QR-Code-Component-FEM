@@ -1,7 +1,47 @@
+main {
+  width: 100vw;
+  height: 100vh; }
+  main section {
+    width: 100%;
+    height: 100%; }
+    main section .card {
+      width: 320px;
+      height: 497px;
+      border-radius: 20px;
+      background-color: white;
+      padding: 16px; }
+      main section .card img {
+        width: 288px;
+        height: 288px;
+        margin-bottom: 25px;
+        border-radius: 15px; }
+      main section .card .title {
+        font-size: 22px;
+        color: #1f3251;
+        font-family: outfilBold;
+        margin-bottom: 16px; }
+      main section .card .text {
+        color: #d6e2f0;
+        font-family: outfit; }
+
 @font-face {
   font-family: outfit;
-  src: url(../fonts/Outfit-Regular.ttf); }
+  src: url("../fonts/Outfit-Regular.ttf"); }
 
 @font-face {
   font-family: outfitBold;
-  src: url(../fonts/Outfit-Bold.ttf); }
+  src: url("../fonts/Outfit-Bold.ttf"); }
+
+main section {
+  display: center;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 15px;
+  background-color: #d6e2f0; }

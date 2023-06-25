@@ -4,9 +4,9 @@
 #####################################################
 *.sketch
 *.fig
-.node_modules
-.README-FEM
-.style-guide
+node_modules
+README-FEM
+style-guide
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################

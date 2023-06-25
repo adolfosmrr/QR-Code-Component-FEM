@@ -13,6 +13,7 @@ main {
             border-radius: 20px;
             background-color: white;
             padding: 16px;
+            box-shadow: 1px 9px 19px 0px rgba(0,0,0,0.20);
 
             img{
                 width: 288px;
@@ -24,13 +25,15 @@ main {
             .title {
                 font-size: 22px;
                 color: hsl(218, 44%, 22%); //for some reason, don't recognize $darkBlue variable
-                font-family: outfilBold;
+                font-family: outfitBold;
                 margin-bottom: 16px;
+                text-align: center;
             }
 
             .text {
-                color: hsl(212, 45%, 89%); //for some reason, don't recognize $lightGrey variable
+                color: #7D889E; //for some reason, don't recognize $lightGrey variable
                 font-family: outfit;
+                text-align: center;
             }
         }
     }

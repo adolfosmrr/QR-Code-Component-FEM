@@ -9,7 +9,8 @@ main {
       height: 497px;
       border-radius: 20px;
       background-color: white;
-      padding: 16px; }
+      padding: 16px;
+      box-shadow: 1px 9px 19px 0px rgba(0, 0, 0, 0.2); }
       main section .card img {
         width: 288px;
         height: 288px;
@@ -18,11 +19,13 @@ main {
       main section .card .title {
         font-size: 22px;
         color: #1f3251;
-        font-family: outfilBold;
-        margin-bottom: 16px; }
+        font-family: outfitBold;
+        margin-bottom: 16px;
+        text-align: center; }
       main section .card .text {
-        color: #d6e2f0;
-        font-family: outfit; }
+        color: #7D889E;
+        font-family: outfit;
+        text-align: center; }
 
 @font-face {
   font-family: outfit;
@@ -33,7 +36,7 @@ main {
   src: url("../fonts/Outfit-Bold.ttf"); }
 
 main section {
-  display: center;
+  display: flex;
   justify-content: center;
   align-items: center; }
 

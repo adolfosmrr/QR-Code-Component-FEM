@@ -10,7 +10,8 @@ main {
       border-radius: 20px;
       background-color: white;
       padding: 16px;
-      box-shadow: 1px 9px 19px 0px rgba(0, 0, 0, 0.2); }
+      box-shadow: 1px 9px 19px 0px rgba(0, 0, 0, 0.2);
+      flex-direction: column; }
       main section .card img {
         width: 288px;
         height: 288px;
@@ -23,6 +24,7 @@ main {
         margin-bottom: 16px;
         text-align: center; }
       main section .card .text {
+        width: 80%;
         color: #7D889E;
         font-family: outfit;
         text-align: center; }
@@ -38,6 +40,11 @@ main {
 main section {
   display: flex;
   justify-content: center;
+  align-items: center; }
+
+main section .card {
+  display: flex;
+  justify-content: baseline;
   align-items: center; }
 
 * {
